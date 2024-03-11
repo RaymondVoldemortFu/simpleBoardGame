@@ -25,3 +25,35 @@
 
 - 棋盘大小固定为 5x5。
 - 棋盘上的棋子只能是 A, B, C, D, E 这五个字母。
+
+
+
+# Chessboard Game
+
+This is a simple chessboard game where users can input commands to view the layout of the chessboard or information about a specific position.
+
+## Features
+
+- Print the layout of the entire chessboard.
+- View the chess piece at a specific position (x, y) and its adjacent pieces.
+- Support for exiting the game.
+
+## How to Run
+
+1. Make sure you have Java installed on your computer.
+2. Open the project using the command line or an IDE.
+3. Compile the Java files: `javac Main.java Board.java`
+4. Run the program: `java Main`
+
+## Input Commands
+
+- Enter "print" to print the chessboard.
+- Enter "at x y" to view the chess piece at position (x, y) and its adjacent pieces.
+- Enter "exit" to exit the program.
+
+## Notes
+
+- The chessboard size is fixed at 5x5.
+- The chess pieces on the board can only be the letters A, B, C, D, or E.
+
+
